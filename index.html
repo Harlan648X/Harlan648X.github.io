@@ -1,8 +1,313 @@
-<html>
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+
 <head>
-    <title>My Home Page</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Hello World!</h1>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Harlan Levine</h1>
+            <br />
+            <h2>Software Developer</h2>
+            <br />
+            <br />
+            <a href="HarlanLevine_Resume2.pdf" download="HarlanLevine.pdf" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I am a high-tech professional with a history of continuous learning. I have a passion for problem solving and applying new technologies to solve business problems. I am seeking a position as a software developer where I can contribute to the successes of the team and exceed client expectations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="January 2017 – April 2017">
+                <h3>Tech Elevator Coding Boot Camp</h3>
+                <h4>C#.NET Student</h4>
+                <p>
+                    Participated in 14-week .NET coding bootcamp learning how to develop dynamic web based software systems using the .NET programming language and platform including:
+                    <ul>
+                        <li>C# Language Fundamentals: variables, data types, loops, conditional statements, exception handling, collections framework, I/O</li>
+                        <li>Object Oriented Programming: classes and objects, interfaces, access modifiers, class modeling, encapsulation, inheritance, and polymorphism, class diagrams</li>
+                        <li>Web Application Development: HTML, CSS, Javascript, jQuery, ASP.NET MVC, IIS Express</li>
+                        <li>Database Programming: ADO.NET, table design and creation, SQL queries and DML, MS SQL, E/R diagrams</li>
+                        <li>Development tools and techniques: Agile, unit testing (MS Test), TDD, Git command line, Visual Studio 2015, Selenium, Cucumber</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div data-date="2014-2016 / 1996-1999">
+                <h3>ABB</h3>
+                <h4>Software Development – Plant Automation - HMI (Human Machine Interface) Technician</h4>
+                <p>
+                    Worked as part of an engineering team to develop, or convert existing user interfaces for power plants and waste water treatment facilities. Built on my past experience working for ABB from 1996 to 1999 by learning the latest ABB software such as Symphony+ Engineering.
+                    <ul>
+                        <li>Created new HMI graphics for the platforms known as Conductor VMS and Symphony Plus (S+)</li>
+                        <ul><li>Learned scripting language to create dynamic animations as needed</li></ul>
+                        <li>Supported conversions for customers upgrading from: Conductor NT, PPB, and Conductor VMS to S+</li>
+                        <li>Reviewed the work of remote engineering centers such as India and Mexico to ensure quality</li>
+                        <ul><li>Marked up errors and sent back for re-work or fixed issues myself</li></ul>
+                        <li>Called upon to research and solve unique graphical programming issues</li>
+                        <ul><li>Found new ways to produce more compact code for faster graphic call up times</li></ul>
+                        <li>Worked directly with customers during factory acceptance tests to resolve last minute issues</li>
+                        <li>Took ABB university course to learn Composer Engineering software</li>
+                        <li>Created documents to help others, such as loading procedures for older software and workarounds for bugs in new software</li>
+                        <li>Conducted one on one training to teach engineers how to load graphics, databases, and trends on Conductor VMS consoles</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div data-date="2000 – 2014">
+                <h3>Swagelok</h3>
+                <h4>Gauge Calibration Technician</h4>
+                <p>
+                    Performed all aspects of calibration including: purchasing and testing of all gauges, along with maintaining an audit ready system of calibration records.
+                    <ul>
+                        <li>Calibrated the following gauge types: Temperature, Torque, Pressure, Flow, Calipers, and Micrometers</li>
+                        <li>Worked with outside vendors when in-house calibration was not possible</li>
+                        <li>Power user of our Gauge Application and Excel to generate reports of gauges due for calibration and to track use and assignment of calibrated gauges</li>
+                        <li>Communicated via E-mail, phone and Fax to schedule calibrations with supervisors, engineers and managers</li>
+                        <li>Transformed physical filing system to online system of scanned documents</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div data-date="1999-2000">
+                <h3>Channelpoint/Insurequote</h3>
+                <h4>Programmer - comparative insurance rating software</h4>
+                <p>
+                    As an Auto Insurance Programmer I was responsible for programming rate revisions and company updates for ChannelPoint’s comparative rating software. The programs I maintained are known as “Solution” and “Agency Suite”. The purpose of this software is to allow insurance agents and companies to compare their insurance rates against the competition and offer the consumer the most competitive rates.                    <ul>
+                        <li>Learned to program in Turbo Pascal</li>
+                        <li>Responsible for testing completed software for accuracy</li>
+                        <li>Participated in team environment with agents and data entry associates</li>
+                        <li>Worked in a production based and deadline oriented environment</li>
+                        <li>Participated in transition from DOS to Windows based product</li>
+                    </ul>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Tech Elevator Developer Bootcamp</h3>
+            <!--<span class="education-date">Sept 2016 - Sept 2017</span>-->
+            <h4>C# .NET Certificate</h4>
+            <p>
+                Full stack 14 week onsite software development course
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Lakeland Community College</h3>
+            <!--<span class="education-date">Sept 2016 - Sept 2017</span>-->
+            <h4>Associate of Applied Business Degree in Information Systems</h4>
+            <ul>
+                <li>
+                    C/C++ Programming Certificate
+                </li>
+                <li>
+                    Courses in Visual Basic, Visual C++, SQL
+                </li>
+                <li>
+                    Microsoft Office
+                </li>
+                <li>
+                    3.6 GPA
+                </li>
+
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Pothole Tracker</h3>
+                        <p>
+                            This was our final project at Tech Elevator and is hosted on ApphHarbor. This project really gave meaning to "Full Stack". We used C#, MVC, Google Map API, HTML, CSS, Jquery, Bootstrap, Ninject and SQL. Go to the login page and log in as a City Worker to see all the features.
+                        </p>
+                        <a href="http://pothole.apphb.com/" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Guessing Game using C# MVC SQL</h3>
+                        <p>
+                            This is a little guessing game I created to keep my skills sharp. It is a C# MVC app featuring a SQL database with two tables. you just enter a word and if it matches one of the secret words stored on the server you get rewarded with a corresponding animated .gif The current list of words is: cat, kitten, dog, puppy, butterfly, tweety and my favorite "test". You never know what you might learn by creating a simple demo like this. I learned a lot about Time Zones, since I wanted to display all the past guesses and when they were entered.
+                        </p>
+                        <a href="https://sqlreadwritemvc.apphb.com/" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>C#.NET</li>
+            <li>SQL</li>
+            <li>JQuery</li>
+            <li>MVC</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Testing</li>
+            <li>JavaScript</li>
+            <li>Visual Studio</li>
+            <li>Excel</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Visual Basic</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <h2>LevineH@msn.com  or use form below</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/levineh@msn.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2017 Harlan Levine
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
+
 </html>
